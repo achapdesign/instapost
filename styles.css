@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+ 
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body {
+    background-color: gray;
+   
+}
+ 
+.container {
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+}
+ 
+.container-header{
+    height: 7.5%;
+    width: 7.5%;
+    padding: 10px;
+    display: flex;
+}
+ 
+.img alt:logo {
+    width: 20px;
+    padding: 20px;
+}
+ 
+.p {
+    font-size: 14px;
+    padding-left: 10px;
+}
+ 
+.menu {
+    height: 100px;
+    padding-left: 260px;
+    padding-top: 25px;
+    scale: 1.85;
+    vertical-align: center;
+}
+ 
+.main-pic {
+    width: 500px;
+  margin: 0;
+}
+.respond{
+    display: flex;
+    height: 20px;
+}
+ 
+.like {
+    object-fit: contain;
+    padding: 10px;
+    scale: 1.5;
+}
+ 
+.comment {
+    padding: 10px;
+    scale: 1.5;
+}
+ 
+.share{
+    padding: 10px;
+    scale: 1.5;
+}
+.repor {
+   padding-left: 290px;
+   padding-top: 10px;
+    scale: 1.5;
+}
+ 
+.likes{
+    margin-top: 20px;
+    padding: 10px;
+}
+ 
+.caption {
+    margin: 10px;
+}
+ 
